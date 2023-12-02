@@ -1,16 +1,12 @@
-# bot.py
 import os
-
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 import time
 from discord.ext import tasks 
 from asana_test import get_completed
-
-
-
 load_dotenv()
+
 TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
 intents = discord.Intents.default()

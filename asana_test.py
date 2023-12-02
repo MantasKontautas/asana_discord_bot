@@ -3,7 +3,6 @@ import asana
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
 
-
 load_dotenv()
 
 def get_completed():
